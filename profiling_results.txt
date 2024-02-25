@@ -1,0 +1,166 @@
+         1080338 function calls (1039334 primitive calls) in 6.974 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        6    6.002    1.000    6.002    1.000 {built-in method time.sleep}
+    40930    0.171    0.000    0.230    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\io\json\_normalize.py:182(<dictcomp>)
+    40930    0.131    0.000    0.188    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\io\json\_normalize.py:184(<dictcomp>)
+   667702    0.131    0.000    0.132    0.000 {built-in method builtins.isinstance}
+    40930    0.118    0.000    0.608    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\io\json\_normalize.py:167(_normalise_json_ordered)
+        6    0.098    0.016    0.098    0.016 C:\Program Files\Python311\Lib\json\decoder.py:343(raw_decode)
+  40936/6    0.045    0.000    0.684    0.114 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\io\json\_normalize.py:192(_simple_json_normalize)
+    40930    0.041    0.000    0.056    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\io\json\_normalize.py:126(_normalise_json)
+        6    0.034    0.006    0.066    0.011 {method 'read' of '_io.TextIOWrapper' objects}
+        6    0.032    0.005    0.032    0.005 {built-in method _codecs.charmap_decode}
+    40936    0.032    0.000    0.039    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\construction.py:915(<genexpr>)
+        6    0.027    0.005    0.077    0.013 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\construction.py:891(_list_of_dict_to_arrays)
+   122790    0.023    0.000    0.023    0.000 {method 'items' of 'dict' objects}
+        6    0.023    0.004    0.684    0.114 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\io\json\_normalize.py:240(<listcomp>)
+       42    0.013    0.000    0.014    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\construction.py:1028(convert)
+        6    0.009    0.002    0.009    0.002 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\construction.py:922(<listcomp>)
+    40930    0.007    0.000    0.007    0.000 {method 'keys' of 'dict' objects}
+        6    0.006    0.001    0.794    0.132 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\io\json\_normalize.py:245(json_normalize)
+        1    0.006    0.006    6.974    6.974 c:\Users\arshdeep.singh\Downloads\python_adv\cProfiling.py:17(main)
+        6    0.005    0.001    0.005    0.001 {built-in method io.open}
+       18    0.003    0.000    0.004    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\managers.py:2245(_stack_arrays)
+        3    0.002    0.001    0.002    0.001 {method 'argsort' of 'numpy.ndarray' objects}
+        4    0.001    0.000    0.004    0.001 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\managers.py:2275(_merge_blocks)
+      126    0.001    0.000    0.001    0.000 {built-in method numpy.empty}
+        1    0.001    0.001    0.001    0.001 {built-in method nt.listdir}
+        6    0.001    0.000    0.165    0.027 C:\Program Files\Python311\Lib\json\__init__.py:274(load)
+       54    0.001    0.000    0.001    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\dtypes\cast.py:1157(maybe_infer_to_datetimelike)
+        6    0.001    0.000    0.001    0.000 {method '__exit__' of '_io._IOBase' objects}
+       48    0.001    0.000    0.002    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\construction.py:517(sanitize_array)
+        6    0.001    0.000    6.967    1.161 c:\Users\arshdeep.singh\Downloads\python_adv\cProfiling.py:9(fetch_dataframe)
+        3    0.001    0.000    0.001    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\numpy\core\shape_base.py:219(vstack)
+      102    0.001    0.000    0.001    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\numpy\core\numeric.py:274(full)
+        6    0.000    0.000    0.005    0.001 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\managers.py:2189(_form_blocks)
+       12    0.000    0.000    0.000    0.000 <frozen ntpath>:154(splitdrive)
+        6    0.000    0.000    0.012    0.002 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\construction.py:96(arrays_to_mgr)
+        6    0.000    0.000    0.092    0.015 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\construction.py:793(to_arrays)
+        6    0.000    0.000    0.105    0.017 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\frame.py:683(__init__)
+        6    0.000    0.000    0.001    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\indexes\base.py:475(__new__)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\dtypes\cast.py:124(maybe_convert_platform)
+        6    0.000    0.000    0.002    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\construction.py:596(_homogenize)
+       24    0.000    0.000    0.002    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\indexes\base.py:7592(ensure_index)
+  403/345    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+      186    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\dtypes\generic.py:37(_check)
+      186    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\dtypes\generic.py:42(_instancecheck)
+        6    0.000    0.000    0.098    0.016 C:\Program Files\Python311\Lib\json\__init__.py:299(loads)
+      102    0.000    0.000    0.000    0.000 {built-in method numpy.asarray}
+        6    0.000    0.000    0.014    0.002 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\construction.py:928(_finalize_columns_and_data)
+      303    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+       18    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\numpy\core\_asarray.py:27(require)
+        6    0.000    0.000    0.004    0.001 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\managers.py:1781(_consolidate_inplace)
+        6    0.000    0.000    0.098    0.016 C:\Program Files\Python311\Lib\json\decoder.py:332(decode)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\indexes\base.py:649(_simple_new)
+        6    0.000    0.000    0.000    0.000 <frozen ntpath>:107(join)
+       48    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\construction.py:693(_sanitize_ndim)
+       18    0.000    0.000    0.000    0.000 {built-in method numpy.array}
+        6    0.000    0.000    0.009    0.002 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\managers.py:2120(create_block_manager_from_column_arrays)
+       12    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\generic.py:278(__init__)
+     12/4    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+       21    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\blocks.py:2667(get_block_type)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\dtypes\cast.py:1577(construct_1d_object_array_from_listlike)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\construction.py:532(treat_as_nested)
+        6    0.000    0.000    0.092    0.015 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\construction.py:506(nested_data_to_arrays)
+        5    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\managers.py:1777(<listcomp>)
+        9    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\numpy\core\_dtype.py:346(_name_get)
+       48    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\construction.py:732(_sanitize_str_dtypes)
+       48    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\construction.py:416(extract_array)
+       17    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\blocks.py:214(is_extension)
+        9    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\blocks.py:225(_consolidate_key)
+       42    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\managers.py:2176(_grouping_func)
+        2    0.000    0.000    0.004    0.002 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\managers.py:2258(_consolidate)
+       54    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\_config\__init__.py:55(using_pyarrow_string_dtype)
+        6    0.000    0.000    0.014    0.002 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\construction.py:1070(<listcomp>)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\base.py:836(__iter__)
+        6    0.000    0.000    0.032    0.005 C:\Program Files\Python311\Lib\encodings\cp1252.py:22(decode)
+       42    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\common.py:566(require_length_match)
+       48    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\construction.py:752(_maybe_repeat)
+       90    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+       18    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\numpy\core\_asarray.py:108(<setcomp>)
+      102    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\numpy\core\multiarray.py:1080(copyto)
+       24    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\_config\config.py:127(_get_single_key)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\managers.py:1771(_consolidate_check)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\indexes\range.py:201(_simple_new)
+       44    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\indexes\range.py:999(__len__)
+      114    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\_config\config.py:635(_get_root)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\dtypes\inference.py:404(is_dataclass)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\indexes\api.py:385(default_index)
+       42    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\dtypes\common.py:1255(is_1d_only_ea_dtype)
+        3    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\blocks.py:2696(new_block_2d)
+        6    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\_config\config.py:145(_get_option)
+       12    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+       21    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+       24    0.000    0.000    0.000    0.000 <frozen abc>:117(__instancecheck__)
+       12    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\dtypes\common.py:1316(is_ea_or_datetimelike_dtype)
+       17    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\blocks.py:219(_can_consolidate)
+        3    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\numpy\core\shape_base.py:81(atleast_2d)
+       18    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\managers.py:2263(<lambda>)
+        9    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\construction.py:481(ensure_wrapped_if_datetimelike)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\_config\config.py:676(_translate_key)
+        6    0.000    0.000    0.014    0.002 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\construction.py:1006(convert_object_array)
+       20    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\indexes\base.py:909(__len__)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\indexes\base.py:591(_ensure_array)
+        4    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\numpy\core\numerictypes.py:357(issubdtype)
+        9    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\numpy\core\_dtype.py:330(_name_includes_bit_suffix)
+        8    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\numpy\core\numerictypes.py:283(issubclass_)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\indexes\base.py:7687(maybe_extract_name)
+        3    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\blocks.py:2638(maybe_coerce_values)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\construction.py:950(_validate_or_indexify_columns)
+       60    0.000    0.000    0.000    0.000 C:\Program Files\Python311\Lib\typing.py:2256(cast)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\managers.py:1763(is_consolidated)
+       12    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\construction.py:916(<genexpr>)
+        6    0.000    0.000    0.000    0.000 C:\Program Files\Python311\Lib\dataclasses.py:1256(is_dataclass)
+        4    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\blocks.py:2788(extend_blocks)
+        3    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\managers.py:2284(<listcomp>)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\_config\config.py:617(_select_options)
+       12    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFB1B908F90}
+        2    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\base.py:82(shape)
+        3    0.000    0.000    0.002    0.001 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\numpy\core\fromnumeric.py:53(_wrapfunc)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\flags.py:51(__init__)
+        3    0.000    0.000    0.002    0.001 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\numpy\core\fromnumeric.py:1025(argsort)
+       12    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\indexes\base.py:831(_reset_identity)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\indexes\base.py:609(_dtype_to_subclass)
+       18    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\construction.py:196(mgr_to_mgr)
+        6    0.000    0.000    0.000    0.000 <frozen codecs>:260(__init__)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\_config\__init__.py:34(using_copy_on_write)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\dtypes\inference.py:334(is_hashable)
+     12/4    0.000    0.000    0.000    0.000 <frozen abc>:121(__subclasscheck__)
+       12    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\_config\config.py:649(_get_deprecated_option)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\dtypes\inference.py:306(is_named_tuple)
+       17    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\blocks.py:718(dtype)
+        4    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 <frozen _collections_abc>:262(__subclasshook__)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\construction.py:685(_sanitize_non_ordered)
+        9    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\numpy\core\_dtype.py:24(_kind_name)
+       18    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\indexes\base.py:5140(_values)
+       12    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+       18    0.000    0.000    0.000    0.000 {built-in method nt.fspath}
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\base.py:84(<genexpr>)
+        3    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\numpy\core\shape_base.py:215(_vhstack_dispatcher)
+        2    0.000    0.000    0.000    0.000 <frozen _collections_abc>:409(__subclasshook__)
+        3    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\numpy\core\shape_base.py:207(_arrays_for_stack_dispatcher)
+        3    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\managers.py:2293(<listcomp>)
+        8    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\blocks.py:266(mgr_locs)
+        1    0.000    0.000    0.000    0.000 <frozen _collections_abc>:78(_check_methods)
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.hash}
+        9    0.000    0.000    0.000    0.000 <frozen _collections_abc>:315(__subclasshook__)
+        8    0.000    0.000    0.000    0.000 {built-in method numpy.asanyarray}
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\numpy\core\multiarray.py:153(concatenate)
+        6    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\pandas\core\internals\managers.py:914(__init__)
+        3    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\numpy\core\fromnumeric.py:1021(_argsort_dispatcher)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        3    0.000    0.000    0.000    0.000 C:\Users\arshdeep.singh\AppData\Roaming\Python\Python311\site-packages\numpy\core\shape_base.py:77(_atleast_2d_dispatcher)
+
+
